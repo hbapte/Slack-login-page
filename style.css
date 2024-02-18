@@ -39,7 +39,7 @@ body {
 #homepage {
     display: grid;
     align-items: center;
-    grid-template-columns: 2fr 1.7fr;
+    grid-template-columns: 2fr 1.5fr;
     max-height: 100vh;
     
 }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack - Sign in page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div id="homepage">
+        <div id="homeimg">
+            <img src="Mobile login-amico.png" alt="slack" width="100%">
+            <h4>Turn your ideas into reality.</h4>
+            <p>Start for free and get attractive offers from the community</p>
+        </div>
+        
+
+    
+    <div id="form">
+    <main>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        id="slack"
+        fill="currentColor"
+        class="bi bi-slack"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111.756 8.43 1.68 8.43h1.682zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682zm6.749 1.682c0-.926.755-1.682 1.68-1.682S16 4.964 16 5.889s-.756 1.681-1.68 1.681h-1.681zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68s.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681z"
+        />
+      </svg>
+
+      <h3>Login to your account</h3>
+      <p id="subheader">See what is going on with your business</p>
+
+      <button id="google">
+    
+        <svg width="16" height="16" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"/><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"/><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"/><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"/></svg>
+        <span> Continue with Google</span>
+        
+      </button>
+
+      <p id="sign">or Sign in with Email</p>
+
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="mail@abc.com" />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="*****************"/>
+
+        <div id="bottom">
+            <div id="check"> 
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox">Remember Me</label>
+        </div>
+        <div>
+            <a href="#" id="forgot">Forgot Password?</a> 
+        </div>
+
+          
+        </div>
+
+        <button id="submit" type="submit">Login</button>
+      </form>
+
+      <p id="closing-text">
+        Not Registered Yet?  <span> <a href="#" id="create"> Create an account</a></span>
+      </p>
+    </main>
+</div>
+</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
